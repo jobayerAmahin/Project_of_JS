@@ -58,6 +58,17 @@ p1.className="redCol";
 mDiv.removeChild(p2)
 p.remove()
 
+//Insert Before
+const p3=document.createElement('p');
+p3.innerText="All kinds of methods ffor html element append and remove can be found in this section for p3";
+
+const p4=document.createElement('p');
+p4.innerText="All kinds of methods ffor html element append and remove can be found in this section ffor p4";
+
+mDiv.append(p3);
+
+mDiv.insertBefore(p4,mDiv.children[1])
+
 
 
 //
