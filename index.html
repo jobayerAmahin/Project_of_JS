@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>JS DOM Initialization</title>
 </head>
 <body>
@@ -10,11 +11,14 @@
         <h1>Hello Man!</h1>
     </header>
     <main>
+      <div class="sigma">
         <ul>
-            <li>Hey</li>
-            <li>Bro</li>
-            <li>Hello</li>
+            <li class="sigmaList">Vaikka</li>
+            <li class="sigmaList">Esimerkkiksi</li>
+            <li class="sigmaList">Eli</li>
+            <li class="sigmaList">Totta</li>
         </ul>
+      </div>
 
         <div class="newClass">
             <h3>PLP JHK KKK LKK</h3>
@@ -27,7 +31,30 @@
             <h3>9809203993</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum asperiores sequi obcaecati sint quae neque doloribus inventore. Optio iusto libero numquam expedita velit amet voluptas fuga culpa quae odit?</p>
         </div>
+
+        <div class="domSec">
+            <h2>Total Number <span id="totVal">0</span></h2>
+            <button id="btn1">Click</button>
+        </div>
+        <div class="items">
+            <li>Omnia</li>
+            <li id="item2">Taitotalo</li>
+            <li>Coursera</li>
+        </div>
+
+        <div class="inn" id="inn">
+            <a href="www.facebook.com" target="_blank"></a>
+            <button id="btnFb">Facebook</button>
+
+            <p style="visibility: hidden;" id="hid">Hey Look AT here</p>
+            <p id="inText">Don't look at here</p>
+        </div>
+
+        <div id="parentChild">
+
+        </div>
     </main>
+    
     <script src="./main.js"></script>
 </body>
 </html>
