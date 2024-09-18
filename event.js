@@ -31,6 +31,18 @@ tButton.addEventListener('click',function(){
     p.setAttribute("class","flex justify-center")
 })
 
+tArea.addEventListener('keyup',function(event){
+    if(event.key==="Enter"){
+        const tVal=tArea.value;
+        const p=document.createElement('p');
+        p.innerText=tVal;
+        commentArea.appendChild(p);
+        p.setAttribute("class","flex justify-center");
+        document.getElementById('tArea').value=''
+    }
+})
+
+
 cancel.addEventListener('click',function(){
     tArea.value=''
 })
